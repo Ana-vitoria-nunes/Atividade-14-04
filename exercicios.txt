@@ -1,0 +1,130 @@
+Exercícios sobre estrutura condicional, dando ênfase
+nas variáveis
+
+1. Faça um algoritmo que leia os valores X, Y, Z e imprima na tela se a
+ soma de X + Y é menor que Z.
+
+
+R:
+Digite um número: X
+Digite um número :Y
+Digite um número :Z
+
+soma X+Y
+se (soma<Z)
+	A soma é menor que Z
+senão
+	A soma é maior que Z
+
+
+
+2. Faça um algoritmo que leia o nome, o sexo e o estado civil de uma
+pessoa. Caso sexo seja “M” e estado civil seja “CASADO”, solicitar o
+tempo de casada (anos).
+
+
+R:
+Digite seu nome: 
+Digite seu sexo :
+Digite seu estado civil :
+
+se (estado civil==Casado && sexo==M)
+	Digite seu tempo de casado:
+senão
+	Obrigado pela informação
+
+
+
+3. Faça um algoritmo para receber um número qualquer e informar na
+tela se é par ou ímpar.
+
+R:
+Digite um número: 
+
+se ( número terminar com 2 || 4 || 6 || 8)
+	O número é Par
+senão
+	O número é Ímpar
+4. Faça um algoritmo que leia dois valores inteiros X e Y se os valores
+forem iguais deverá se somar os dois, caso contrário multiplique X
+por Y. Ao final de qualquer um dos cálculos deve-se atribuir o
+resultado para uma variável Z e mostrar seu conteúdo na tela.
+
+
+R:
+Digite um númeroX: 
+Digite um númeroY:
+
+soma= X+Y=Z
+mult=X*Y=Z
+
+se (númeroX==númeroY)
+	Resultado:soma
+senão
+	Resultado:mult
+
+
+5. Encontrar o dobro de um número caso ele seja positivo e o seu triplo
+caso seja negativo, imprimindo o resultado.
+
+R:
+Digite um número: 
+
+se (número for positivo)
+	Resultado: número*2
+senão
+	Resultado: número*3
+
+
+
+6. Escreva um algoritmo que lê dois valores booleanos (lógicos) e então
+determina se ambos são VERDADEIROS ou FALSOS.
+
+R:
+Você é menina: 
+Você come arroz: 
+
+
+se (Você é menina && Você come arroz== VERDADEIRO)
+	Ambos são verdadeiros
+
+senão se (Você é menina && Você come arroz== FALSO)
+	Ambos são falsos
+
+senão
+	Ambos são distintos
+
+7. Faça um algoritmo que leia uma variável e some 5 caso seja par ou
+some 8 caso seja ímpar, imprimir o resultado desta operação.
+
+R:
+Atribua um n° inteiro a númeroA:
+
+ se (númeroA== números com final 2 || 4 || 6 || 8)
+	soma= númeroA +5
+	Resultado da operação = soma
+
+senão 
+	soma = númeroA +8
+Resultado da operação = soma
+
+8. Escreva um algoritmo que leia três valores inteiros e diferentes e
+mostre-os em ordem decrescente.
+
+R:
+
+!(A==B)
+!(A==C)
+!(B==C)
+
+Digite um número: A
+Digite um número: B
+Digite um número: C
+
+se ((A>B) && (A>C))
+	A é o primeiro número
+senão se (B>C)
+	B é o segundo número
+senão 
+	C é o terceiro número
+
